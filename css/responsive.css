@@ -1,20 +1,22 @@
 /* Mobile Device BreakPoint */
+/* @media screen and (min-width: 600px) {
+  nav {
+    display: none;
+  }
+  .menubar {
+    display: block;
+  }
+} */
+
+
+/* Tablet Device */
 @media screen and (min-width: 768px) {
   nav {
-    display: block;
-  }
-  .menubar {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  nav {
     display: none;
   }
   .menubar {
     display: block;
-    color: #fff;
+    
   }
 }
 
